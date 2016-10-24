@@ -1,0 +1,45 @@
+/*#button1{
+	border-radius:5px;
+	background:gray;
+	font:Century Gothic;
+	width:125px;
+	height:25px;
+	font-weight:bold;
+	display:inline;
+	margin:20px;
+	
+	}*/
+/*	#toggle {
+		width:100px;
+		height:100px;
+		background:#ccc;
+		margin-top:10px;
+		
+		
+		
+	}*/
+	.imagebar {
+	   
+		width:750px;
+		height:500px;
+		margin:30px auto;
+		overflow:hidden;
+	  
+		
+		}
+		.imagebar img {
+			
+			width:750px;
+		    height:500px;
+			display:none;
+			
+		}
+		
+	/*#progress {
+	position:relative;
+     margin:10px;	
+		
+		
+    
+	
+	}*/

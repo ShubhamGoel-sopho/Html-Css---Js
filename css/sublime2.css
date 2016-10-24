@@ -1,0 +1,48 @@
+body
+{
+font-size: 100%;
+margin:0;
+padding: 0;
+
+}
+
+
+#wrapper {
+
+background-image: url("myimg.jpg");
+background-position: fixed;
+background-repeat: repeat;
+background-origin:top-left;
+/*background-size: 100vw 100vh;*/
+top:0;
+left:0;
+width: 100vw;
+height: 100vh;
+
+font-size: 200%;
+}
+
+video {
+position: relative;
+/*min-width: 200px;
+min-height: 250px;
+max-width: 400px;
+max-height: 400px;*/
+top: 100px;
+
+width: 50vw;
+height: 50vh;
+display: inline-block;
+left: 25%;
+
+}
+#wrapper p {
+
+display: inline;
+position: absolute;
+top: 70%;
+left:40%;
+font-family: 'Roboto Slab', serif; 
+color : navy;
+
+}

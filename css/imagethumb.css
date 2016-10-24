@@ -1,0 +1,68 @@
+#mainframe {
+	display:block;
+	margin-left:25px;
+	margin-top:25px;
+	width:810px;
+	height:500px;
+	border:4px solid gray;
+	border-radius:5px;
+	
+	
+}
+.mainframe1 {
+	width:175px;
+	height:100px;
+	border:2px solid brown;
+	display:inline;
+	margin:5px;
+	margin-left:25px;
+	cursor:pointer;
+	
+	
+}
+.mainframe1:hover {
+	opacity:0.5;
+	border:4px solid black;
+}
+#animated {
+	position:relative;
+	top:700px;
+	left:50px;
+	width:500px;
+	height:500px;
+	border:2px groove red;
+	background:gray;
+	
+	
+	
+	
+	
+}
+#animator {
+	position:absolute;
+	top:0px;
+	left:0px;
+	border:2px solid black;
+	width:50px;
+	height:50px;
+	background:red;
+	
+	
+	
+	
+}
+#bb
+{
+	display:block;
+	position:absolute;
+	
+	
+}
+#pp {
+	
+	display:block;
+	background:red;
+	text-align:center;
+	margin-top:20px;
+	
+}	

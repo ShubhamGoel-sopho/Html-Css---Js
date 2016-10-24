@@ -1,0 +1,74 @@
+#for1 {
+
+display: block;
+display: flex;
+font-family: Century Gothic;
+background-color: #00cc00;
+font-weight: bold;
+color:white;
+font-size: 110%;
+letter-spacing: 2px;
+width: 80vw;
+box-sizing: border-box;
+margin: auto;
+padding: 15px;
+}
+.form {
+display: block;
+border-radius: 6px;
+width: 70vw;
+padding:10px;
+box-sizing: border-box;
+margin-left: 20px;
+background-color: #ffb3ff; 
+height: 50px;
+font-size: 120%;
+margin-top: 15px;
+}
+#in1,#in2 {
+	 width: 25vw;
+	 display: inline;
+	}
+
+#b
+{
+
+	margin-left: 25px;
+	margin-right: -20px;
+}
+textarea {
+	width: 70vw;
+	height: 20vh;
+	background-color: peachpuff;
+	font-family: courier;
+	font-weight: bold;
+	font-size: 120%;
+	border: 2px orange;
+	box-sizing: border-box;
+	margin-left: 15px;
+	border-radius: 4px;
+	display: block;
+}
+
+#butt {
+margin-top: 10px;
+width: 130px;
+margin-left: 10px;
+
+padding: 5px;
+background-color: #ff751a;
+height: 50px;
+border-radius: 5px;
+font-weight: normal;
+-webkit-transition:-webkit-transform 2s,background-color 2s ;
+font-size: 15px;
+color:white;
+font-family: Tahoma;
+font-weight: bold;
+
+}
+#butt:hover
+{
+background-color: #ff3333;
+
+}

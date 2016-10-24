@@ -1,0 +1,49 @@
+.content {
+	margin-left:25px;
+	position:relative;
+	font-family:Tahoma;
+	
+	
+	
+}
+
+	
+	
+	
+#navbar {
+	top:0px;
+	height:100%;
+	position:absolute;
+	width:210px;
+	background:cornflowerblue;
+	font-family:Century Gothic;
+	color:white;
+	padding:20px;
+   border-right:1px solid black;
+   left:0px;
+	
+font-size:20px;
+
+	
+	
+	
+}
+#navbar ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	
+	
+	
+}
+#navbar li {
+	margin-top:15px;
+	text-align:center;
+    
+	
+	
+}
+.content.cont:before {
+	left:251px;
+	}
+	

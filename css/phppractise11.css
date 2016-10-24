@@ -1,0 +1,29 @@
+body {
+	padding:0%;
+	margin:0%;
+	font-size:1em;
+	font-family:'Open Sans';
+	background-image:url("stunning_free-_background-_picture-_cool.jpg") ;
+	color:white;
+}
+#formclass
+{
+	width:30%;
+	height:40%;
+}
+#form {
+	font-size :1.4em;
+	display:block;
+	width:100%;
+	height:100%;
+     margin-left:5%;
+	/*box-sizing:border-box;*/
+	
+}
+.f1 {
+	display:block;
+	width:100%;
+	border-radius: 20px 5px;
+	height:25%;
+	
+}

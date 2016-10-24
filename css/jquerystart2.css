@@ -1,0 +1,127 @@
+/*outer section of the side bar styles*/
+.sidesection{
+	position:absolute;
+	top:100px;
+	left:25px;
+    width:200px;
+	height:100%;
+    -webkit-transition:-webkit-transform 2s;
+	
+}
+.slideme {
+position:absolute;
+	top:100px;
+	
+    width:200px;
+	height:100%;
+    border:2px solid black;
+	-webkit-transform:translateX(251px);
+	
+
+  }
+
+img{
+	height:25px;
+	width:25px;
+	 -webkit-transition:-webkit-transform 2s;
+	
+}
+.img1{
+	
+	height:25px;
+	width:25px;
+	 -webkit-transform:translateX(251px);
+	
+}
+
+
+/*inner sectionof the side bar styles*/
+#innersection{
+	position:absolute;
+	top:0px;
+	left:0px;
+	border:2px solid pink;
+	border-radius:2px;
+	height:100%;
+	width:100%;
+	font-family:Tahoma;
+}
+/*main sectionof the side bar styles*/
+.mainsection{
+	position:absolute;
+	top:100px;
+	left:238px;
+	height:100%;
+	width:80%;
+	-webkit-transition:-webkit-transform 2s;
+	}
+.slidemain{
+	position:absolute;
+	top:100px;
+
+	height:100%;
+	width:80%;
+	-webkit-transform:translateX(251px);
+	
+}	
+#articlesection {
+	position:absolute;
+	top:0px;
+	left:0px;
+	border:2px solid orange;
+	border-radius:2px;
+	height:100%;
+	width:100%;
+	font-family:Century Gothic;
+	}
+	
+.navbar {
+	top:0px;
+	height:100%;
+	position:absolute;
+	width:210px;
+	background:cornflowerblue;
+	font-family:Century Gothic;
+	color:white;
+	padding:20px;
+   border-right:1px solid black;
+   left:-251px;
+	
+font-size:20px;
+
+	-webkit-transition:-webkit-transform 2s;
+	
+	
+}
+.navsl {
+	top:0px;
+	height:100%;
+	position:absolute;
+	width:210px;
+	background:cornflowerblue;
+	font-family:Century Gothic;
+	color:white;
+	padding:20px;
+   border-right:1px solid black;
+   
+	
+font-size:20px;
+	-webkit-transform:translateX(251px);
+	
+	
+}
+#navbar ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	
+	
+	
+}
+#navbar li {
+	margin-top:15px;
+	text-align:center;
+    
+	
+	
+}	

@@ -1,0 +1,35 @@
+#button1,#button2{
+	border-radius:5px;
+	background:gray;
+	font:Century Gothic;
+	width:125px;
+	height:25px;
+	font-weight:bold;
+	display:inline;
+	margin:20px;
+	
+	}
+	#imagebar {
+		width:100%;
+		
+		
+		border-radius:5px;
+		height:400px;
+		}
+		#myimages {
+			
+			
+			height:400px;
+			width:95%;
+			margin-left:25px;
+			margin-right:25px;
+            border:2px solid pink;
+			
+			
+		}
+		#side {
+			float:right;
+			clear:left;
+			
+			
+		}
