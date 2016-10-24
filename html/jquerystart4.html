@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+
+<link rel="stylesheet" href="jquerystart4.css" type="text/css"/>
+<link rel="stylesheet" href="C:\Users\Shubham goel\Documents\myjavascriptwebspace\jquery-ui-1.11.4.custom\jquery-ui.css" type="text/css"/>
+<link rel="stylesheet" href="C:\Users\Shubham goel\Documents\myjavascriptwebspace\jquery-ui-1.11.4.custom\jquery-ui.structure.css" type="text/css"/>
+<link rel="stylesheet" href="C:\Users\Shubham goel\Documents\myjavascriptwebspace\jquery-ui-1.11.4.custom\jquery-ui.theme.css" type="text/css"/>
+
+
+<title>
+mywebspace
+</title>
+</head>
+<body>
+
+<!--<div id="animate">drag me </div>
+<button id="butt">click me</button>
+<div id="animate1">drop here </div>-->
+<ul id="sortable">
+<li>ITEM 1</LI>
+<li>ITEM 5</LI>
+<li>ITEM 6</LI>
+<li>ITEM 2</LI>
+<li>ITEM 3</LI>
+<li>ITEM 4</LI>
+</UL>
+
+<div id="slide"></div>
+minrange:<input type="text" id="minrange"/>
+maxrange:<input type="text" id="maxrange"/>
+
+
+
+
+
+<script src="C:\Users\Shubham goel\Documents\myjavascriptwebspace\jquery-3.0.0.js"></script>
+<script src="C:\Users\Shubham goel\Documents\myjavascriptwebspace\jquery-ui-1.11.4.custom\external\jquery\jquery.js"></script>
+<script src="C:\Users\Shubham goel\Documents\myjavascriptwebspace\jquery-ui-1.11.4.custom\jquery-ui.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+/*$("#slide").slider({change:function(event,ui){
+$("#maxrange").attr("value",$(this).slider("value"));
+
+}});*/
+$("#slide").slider({range:true,max:1000,min:10,slide:function(event,ui){
+var c = $(this).slider("values");
+$("#maxrange").attr("value",c[1]);
+$("#minrange").attr("value",c[0]);
+
+
+
+}});
+/*$("#slide").slider({range:true,max:1000,min:10,change:function(event,ui){
+var c = $(this).slider("values");
+$("#maxrange").attr("value",c[1]);
+$("#minrange").attr("value",c[0]);
+
+
+
+}});*/
+
+
+});
+</script>
+
+</body>
+</html>

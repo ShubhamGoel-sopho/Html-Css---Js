@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<title>
+mywebspace</title>
+
+<script type="text/javascript">
+
+function employee(age)
+{
+//private memebers
+var orgage;
+var privatepart = function()
+{
+do{
+if(this.age>70 || this.age<20)
+{
+alert("age is not allowed");
+this.age=prompt("enter the age again");}
+else 
+orgage=this.age;
+
+}while(this.age>70 || this.age<20);
+document.write("orginal age is : "+orgage);
+
+document.write("public age is : "+this.age);
+}}
+
+//privileged property and methods
+this.privileged=function()
+{
+return privatepart();
+
+}
+
+
+//public members
+this.age=age;
+employee.prototype.checktheage = function()
+{
+return this.privileged();
+
+}
+
+
+
+var ag=prompt("enter the age");
+var emp = new employee(ag);
+alert("age is : "+emp.age );
+"<br/>"
+emp.checktheage();
+
+var emp1 = new employee(125);
+alert("age is : "+emp1.age );
+"<br/>"
+emp1.checktheage();
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!--<button onclick="alert(clickcount());">click me </button>-->
+Email:<input type="text" id="myemail" onkeyup="validateemail()"/> 
+<script type="text/javascript">
+/*var clickcount=(function ()
+{
+var clickincrement=0;
+return function ()
+{
+return ++clickincrement;
+
+}
+
+
+})();*/
+function validateemail()
+{
+var emailw = document.GetElementById("myemail");
+var email= emailw.value;
+var regexp= /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+emailw.style.color = "white";
+if(regexp.test(email))
+
+{
+emailw.style.backgroundColor = "red";
+
+
+}
+else
+{
+emailw.style.backgroundColor = "green";
+}
+
+}
+
+
+</script>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="imageslider.css" type="text/css"/>
+<link rel="stylesheet" href="C:\Users\Shubham goel\Documents\myjavascriptwebspace\jquery-ui-1.11.4.custom\jquery-ui.css" type="text/css"/>
+<link rel="stylesheet" href="C:\Users\Shubham goel\Documents\myjavascriptwebspace\jquery-ui-1.11.4.custom\jquery-ui.structure.css" type="text/css"/>
+<link rel="stylesheet" href="C:\Users\Shubham goel\Documents\myjavascriptwebspace\jquery-ui-1.11.4.custom\jquery-ui.theme.css" type="text/css"/>
+
+
+<title>
+mywebspace
+</title>
+</head>
+<body onload="slider()">
+<div class="imagebar">
+
+<img src="C:\Users\Shubham goel\Documents\myjavascriptwebspace\New folder\IMG_0230.JPG" id="1"/>
+<img src="C:\Users\Shubham goel\Documents\myjavascriptwebspace\New folder\IMG_0231.JPG" id="2"/>
+<img src="C:\Users\Shubham goel\Documents\myjavascriptwebspace\New folder\IMG_0232.JPG" id="3"/>
+<img src="C:\Users\Shubham goel\Documents\myjavascriptwebspace\New folder\IMG_0233.JPG" id="4"/>
+<img src="C:\Users\Shubham goel\Documents\myjavascriptwebspace\New folder\IMG_0234.JPG" id="5"/>
+<img src="C:\Users\Shubham goel\Documents\myjavascriptwebspace\New folder\IMG_0235.JPG" id="6"/>
+</div>
+<!--<button id="button1">startslides</button>
+<div id="progress"></div>
+
+
+
+<input id="spinner">
+<div id="toggle"></div>-->
+
+
+
+
+
+<script src="C:\Users\Shubham goel\Documents\myjavascriptwebspace\jquery-3.0.0.js"></script>
+<script src="C:\Users\Shubham goel\Documents\myjavascriptwebspace\jquery-ui-1.11.4.custom\external\jquery\jquery.js"></script>
+<script src="C:\Users\Shubham goel\Documents\myjavascriptwebspace\jquery-ui-1.11.4.custom\jquery-ui.js"></script>
+<script type="text/javascript">
+
+
+
+
+/*$("#progress").slider();
+$("#button1").button();
+$("#spinner").spinner({"max":"10","min":0});
+$("#button1").click(function(){
+//$("#toggle").toggle("clip",{times:3},"slow");
+//$("#toggle").effect("bounce","slow");
+$("#toggle").toggle("right")
+$("#toggle").draggable();*/
+function slider()
+{$(".imagebar #1").show("fade",500);
+$(".imagebar #1").delay(5500).hide("slide",{direction:"left"},500);
+var sc=$(".imagebar img").size();
+var count=2;
+setInterval(function(){
+$(".imagebar #"+count).show("fade",{direction:"right"},500);
+$(".imagebar #"+count).delay(5500).hide("slide",{direction:"left"},500);
+if(count==sc)
+{count=1;}
+else
+{count +=1;
+
+}
+},6500);
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
