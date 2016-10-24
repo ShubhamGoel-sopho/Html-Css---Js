@@ -1,0 +1,27 @@
+/*$("#butt").button();
+$("#butt").click(function(){
+//$("#animate").toggle("slide",{direction:"right",times:5},1500);   //times not works.
+//$("#animate").toggle("bounce",{direction:"right",times:5},1500);//times works.
+//$("#animate").toggle("explode",{direction:"right",times:3},2500);//times will not work on it 
+//$("#animate").toggle("fade",{direction:"right",times:5},1500);//time not works
+//$("#animate").toggle("shake",{direction:"right",times:5},1500);
+//$("#animate").toggle("slide",{easing:"easeInOutBounce"},1500).delay(5000);//easings used..and see delay work to start the animation after 5s.
+//$("#animate").show("slide",{direction:"right"},1500).delay(5000).hide("bounce",{direction:"left",times:5},1500);//hide and show used in 1 line useful in img gallery.when dispaly is settedto none.
+//$("#animate").effect("bounce",{direction:"right"},1500);
+
+});
+$("#animate").resizable({animate:"true",animateEasing:"easeOutBounce",animateDuration:"fast",ghost:true});
+
+$("#animate1").droppable({zIndex:0}).draggable();
+$("#sortable").sortable({appendTo:document.body});
+
+
+});
+
+$("#autocomplete").autocomplete({source:["c++","java","php","ruby","python","asp","jquery"],autoFocus:true,minLength:0});*/
+/*$("#slide").change(function(){
+var val=$("#slide").slider("values");
+$("#maxrange").attr("value","val[0]");
+$("#minrange").attr("value","val[1]");
+}
+);*/
